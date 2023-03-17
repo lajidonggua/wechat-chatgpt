@@ -4,5 +4,4 @@ export interface IConfig {
   chatPrivateTiggerKeyword: string;
   chatTiggerRule: string;
   disableGroupMessage: boolean;
-  temperature: double;
 }

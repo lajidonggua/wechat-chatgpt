@@ -2,7 +2,7 @@ import {config} from "./config.js";
 
 let apiKey = config.openai_api_key;
 let model = config.model;
-let temperature = config.temperature;
+let temperature = 0.9;
 const sendMessage = async (message: string) => {
   try {
     const response = await fetch(`https://api.openai.com/v1/chat/completions`, {
